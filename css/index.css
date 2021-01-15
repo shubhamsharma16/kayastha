@@ -1,0 +1,270 @@
+.container {
+    margin-top: 100px
+}
+
+.section-title {
+    margin-bottom: 38px
+}
+
+.shadow,
+.subscription-wrapper {
+    box-shadow: 0px 15px 39px 0px rgba(8, 18, 109, 0.1) !important
+}
+
+.icon-primary {
+    color: #062caf
+}
+
+.icon-bg-circle {
+    position: relative
+}
+
+.icon-lg {
+    font-size: 50px
+}
+
+.icon-bg-circle::before {
+    z-index: 1;
+    position: relative
+}
+
+.icon-bg-primary::after {
+    background: #062caf !important
+}
+
+.icon-bg-circle::after {
+    content: '';
+    position: absolute;
+    width: 68px;
+    height: 68px;
+    top: -35px;
+    left: 15px;
+    border-radius: 50%;
+    background: inherit;
+    opacity: .1
+}
+
+p,
+.paragraph {
+    font-weight: 400;
+    color: #8b8e93;
+    font-size: 15px;
+    line-height: 1.6;
+    font-family: "Open Sans", sans-serif
+}
+
+.icon-bg-yellow::after {
+    background: #f6a622 !important
+}
+
+.icon-bg-purple::after {
+    background: #7952f5
+}
+
+.icon-yellow {
+    color: #f6a622
+}
+
+.icon-purple {
+    color: #7952f5
+}
+
+.icon-cyan {
+    color: #02d0a1
+}
+
+.icon-bg-cyan::after {
+    background: #02d0a1
+}
+
+.icon-bg-red::after {
+    background: #ff4949
+}
+
+.icon-red {
+    color: #ff4949
+}
+
+.icon-bg-green::after {
+    background: #66cc33
+}
+
+.icon-green {
+    color: #66cc33
+}
+
+.icon-bg-orange::after {
+    background: #ff7c17
+}
+
+.icon-orange {
+    color: #ff7c17
+}
+
+.icon-bg-blue::after {
+    background: #3682ff
+}
+
+.icon-blue {
+    color: #3682ff
+}
+
+
+.home_background_1{
+  width: 100%;
+  height: 350px;
+  background-image: url('https://www.cry.org/wp-content/uploads/2020/07/Health-Creative-Photo-banner1600x422.png');
+  background-size: 100% 100%;
+}
+.home_background_2{
+  width: 100%;
+  height: 300px;
+  background-image: url('https://www.cry.org/wp-content/uploads/2020/05/cry-footprint-in-india-2019-20.jpg');
+  background-size: 100% 100%;
+}
+
+
+ /*........index content........ */
+.event_message_notice {
+  max-width: 100vw !important;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20rem;
+}
+.event_message_notice .event {
+  flex: 0 0 25%;
+  padding: 0rem;
+  width: 100%;
+}
+.event_message_notice .event_body {
+  height: 15rem;
+  overflow-y: scroll;
+}
+.event_message_notice .message {
+  flex: 1 0 50%;
+  width: 100%;
+  padding: 1rem;
+}
+.event_message_notice .notice {
+  flex: 0 0 25%;
+  padding: 1rem;
+  width: 100%;
+}
+.event_message_notice .notice_body {
+  height: 25rem;
+  overflow-y: scroll;
+}
+.event_message_notice .notice_body_text {
+  font-size: 14px;
+}
+.event_message_notice .notice_a_body {
+  height: 25rem;
+  overflow-y: scroll;
+}
+.event_message_notice .notice_a_body_text {
+  font-size: 14px;
+}
+.calender_yvideo_gmap {
+  max-width: 100vw !important;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.calender_yvideo_gmap .calender {
+  flex: 0 0 30%;
+  width: 100%;
+  padding: 1rem;
+}
+.calender_yvideo_gmap .yvideo {
+  flex: 1 0 40%;
+  width: 100%;
+  padding: 1rem;
+}
+.calender_yvideo_gmap .gmap {
+  flex: 0 0 30%;
+  width: 100%;
+  padding: 1rem;
+}
+.calender_yvideo_gmap .calender_body {
+  height: 15rem;
+  overflow-y: scroll;
+}
+.imge{
+  height: 27rem;
+  width:auto;
+  margin:auto;
+}
+#texts{
+  float: left;
+  width:60%;
+  padding-top: 15px;
+  display:inline;
+}
+#pimg{
+    
+    height: 15em;
+    float:right;
+}
+@media only screen and (max-width: 768px) {
+  .event_message_notice {
+    flex-direction: column;
+  }
+  .calender_yvideo_gmap {
+    flex-direction: column;
+  }
+  .slide1{
+    height: 30rem;
+  }
+  .imge{
+    height: 12rem;
+  }
+  #texts{
+  float: left;
+  width:100%;
+  padding-top: 15px;
+}
+#pimg{
+    width:100%;
+    height:auto;
+}
+}
+.card-header:first-child {
+  border-radius: calc(2.25rem - 10px) calc(2.25rem - 10px) 0 0;
+}
+/*........//index content........ */
+
+*{
+  box-sizing: border-box;
+}
+.gallery{
+  border: 1px solid #ccc;
+}
+.gallery img{
+  width: 100%;
+  height: 400;
+}
+.des{
+
+    padding: 15px;
+    text-align: center;
+}
+.responsive{
+  padding: 0 6px;
+  float: left;
+  width: 25%
+}
+@media only screen and (max-width: 700px){
+  .responsive{
+    width: 50%;
+    margin: 6px 0;
+  }
+}
+
+@media only screen and (max-width: 500px){
+  .responsive{
+    width: 100%;
+  }
+}
+
+
